@@ -1,4 +1,4 @@
-## vim-jsbeautify - v1.1.1 - 2012-12-27
+## vim-jsbeautify - v1.2.0 - 2015-11-25
 
 [![Build Status](https://secure.travis-ci.org/maksimr/vim-jsbeautify.png)](http://travis-ci.org/maksimr/vim-jsbeautify)
 
@@ -57,7 +57,7 @@ You'd better add another line in your `.vimrc` to use js-beautify.
 ```vim
 
     Plugin 'einars/js-beautify'
-    
+
 ```
 
 Call `PluginInstall()` inside vim:
@@ -162,9 +162,9 @@ and special properties for the jsbeautify plugin like ```path```, ```bin```
   map <c-f> :call JsBeautify()<cr>
   " or
   autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
-  " for json 
+  " for json
   autocmd FileType json noremap <buffer> <c-f> :call JsonBeautify()<cr>
-  " for jsx 
+  " for jsx
   autocmd FileType jsx noremap <buffer> <c-f> :call JsxBeautify()<cr>
   " for html
   autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
@@ -223,6 +223,8 @@ Thanks for assistance:
 
 ## Versions
 
+v1.2.0
+  + Update js-beautify to v1.5.10
 v1.1.1
   + Add support js-beautify v1.3.1
 
